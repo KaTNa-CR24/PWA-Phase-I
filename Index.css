@@ -1,0 +1,89 @@
+/*This is for desktop view*/
+.main{
+	/*background:linear-gradient(to right bottom,red,yellow);*/
+	/*background-image: " file:///C:/Users/cmslab/Desktop/Practise/nature2.jpg";*/
+
+	display:flex;
+	justify-content:space-around;
+	margin: 10%;
+	border-radius:3%;
+	box-shadow:1px 1px 1px 1px;
+}
+.child{
+	text-align:center;
+	font-size:10px;
+	background:repeating-radial-gradient(white ,skyblue );
+	margin:4%;
+	width:25%;
+	border-radius: 3%;
+	box-shadow: 2px 2px 2px 2px
+}
+
+img{
+	height:50%;
+	width:70%;
+	margin-top: 9%;
+}
+
+/*This is for mobile view*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+.main{
+	background-color: brown;
+	/*background-image: " file:///C:/Users/cmslab/Desktop/Practise/nature2.jpg";*/
+	display:inline-block;
+	justify-content:space-around;
+	margin:2%;
+	width:96%;
+	border-radius:2%;
+}
+.child{
+	text-align:center;
+	font-size:10px;
+	background:linear-gradient(white,lightgreen);
+	margin:2%;
+	width:92%;
+	border-radius: 1%;
+	padding:2%;
+	/*box-shadow: 2px 2px 2px 2px*/
+}
+
+img{
+	height:25%;
+	width:35%;
+	margin:3%;
+	margin-top: 9%;
+}
+
+}
+
+/*This is for tablet view*/
+@media screen and (min-width: 481px) and (max-width: 640px) {
+.main{
+	background:linear-gradient(#03CCA6,white);
+	/*background-image: " file:///C:/Users/cmslab/Desktop/Practise/nature2.jpg";*/
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	margin:2%;
+	width:96%;
+	border-radius:2%;
+}
+.child{
+	text-align:center;
+	font-size:10px;
+	background:linear-gradient(yellow,white);
+	margin:2%;
+	width:42%;
+	border-radius: 1%;
+	padding:2%;
+	/*box-shadow: 2px 2px 2px 2px*/
+}
+
+img{
+	height:25%;
+	width:35%;
+	margin:3%;
+	margin-top: 9%;
+}
+
+}

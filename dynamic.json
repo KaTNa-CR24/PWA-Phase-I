@@ -1,0 +1,34 @@
+{
+	"profile":{
+		"img":"default2.png",
+		"name":"Katna",
+		"roll":"17A31A0535",
+		"place":"Tatiparthi",
+		"designation":"Student"
+},
+	"career":{
+			"info":"I want to get placed in a reputated software company"
+},
+	"education":
+	[
+  		{ "sno":"1",
+		  "degree":"B.Tech",
+		  "institute":"Pragati Engineering College",
+		  "per":"85",
+		  "yop":"2021"
+	    },
+ 		{ "sno":"2",
+ 		  "degree":"Intermediate",
+		  "institute":"Aditya Jr College",
+		  "per":"97.6",
+		  "yop":"2017"
+	    },
+ 	    { "sno":"3",
+ 		  "degree":"SSC",
+		  "institute":"Madhuri Vidyalaya",
+		  "per":"95",
+		  "yop":"2015"
+ 	    }
+    ],
+	"languages":[{"lang":"Telugu"},{"lang":"English"},{"lang":"Hindi"}]
+}
